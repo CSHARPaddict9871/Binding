@@ -1,0 +1,39 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:BindingPractice.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="BindingPractice.Views.MainWindow"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="BindingPractice">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <Grid Background="#1E272E">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <TextBlock Grid.Row="0" 
+                Text="{Binding Greeting}" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center"
+                Background="#295CED"
+                FontFamily="Montserrat"
+                FontWeight="Bold"
+                FontSize="32"
+                Padding="10"/>
+        <Button Grid.Row="1"
+                HorizontalAlignment="Center" VerticalAlignment="Center"
+                Background="gray"
+                Content="Change Dog's Name"
+                Command="{Binding ChangeDogsName}">
+            
+        </Button>
+    
+    </Grid>
+</Window>
