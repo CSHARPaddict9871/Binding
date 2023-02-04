@@ -17,5 +17,8 @@ build_property.ProjectDir = C:\Users\leant\Desktop\BindingPractice\BindingPracti
 [C:/Users/leant/Desktop/BindingPractice/BindingPractice/BindingPractice/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[C:/Users/leant/Desktop/BindingPractice/BindingPractice/BindingPractice/Styles/AnimatedPopup.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [C:/Users/leant/Desktop/BindingPractice/BindingPractice/BindingPractice/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

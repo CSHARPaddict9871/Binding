@@ -4,6 +4,8 @@
     <option name="projectPerEditor">
       <map>
         <entry key="BindingPractice/App.axaml" value="BindingPractice/BindingPractice.csproj" />
+        <entry key="BindingPractice/Styles/AnimatedPopup.axaml" value="BindingPractice/BindingPractice.csproj" />
+        <entry key="BindingPractice/ViewModels/TemplatedControl.axaml" value="BindingPractice/BindingPractice.csproj" />
         <entry key="BindingPractice/Views/MainWindow.axaml" value="BindingPractice/BindingPractice.csproj" />
       </map>
     </option>
